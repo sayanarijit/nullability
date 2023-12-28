@@ -1,6 +1,6 @@
 [project]
 name = 'nullability'
-version = '0.1.0'
+version = '0.1.1'
 description = 'Pass nullable arguments that may not exist'
 readme = 'README.md'
 requires-python = ">=3.7"
