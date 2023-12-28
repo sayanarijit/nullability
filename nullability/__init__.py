@@ -62,5 +62,5 @@ class Nullable(Generic[T]):
     value: Optional[T]
 
     @classmethod
-    def if_not_none(cls, value: T | None):
+    def if_not_none(cls, value: Optional[T]):
         return cls(value) if value is not None else None
